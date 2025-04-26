@@ -12,7 +12,6 @@ const Home: React.FC = () => {
       <Navbar />
       <HeroSection />
       <FeaturesSection />
-      {/* <TestimonialsSection /> */}
       <ContactSection />
       <Footer />
     </div>
