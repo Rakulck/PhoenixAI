@@ -15,10 +15,10 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center md:gap-12 lg:gap-16">
           {/* Content */}
           <div className="w-full md:w-1/2 text-center md:text-left md:pr-4 p-6 rounded-lg shadow-2xl bg-white/60 backdrop-blur-sm transform hover:translate-y-[-4px] transition-all duration-300 border border-gray-100">
-            <h1 className="text-5xl sm:text-4xl md:text-5xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent pr-20">
+            <h1 className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent pr-20">
               Monitor Customer Sentiment
             </h1>
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent">
               Across All Platforms
             </h2>
             <p className="text-lg md:text-xl mb-8 text-gray-700 max-w-lg">
